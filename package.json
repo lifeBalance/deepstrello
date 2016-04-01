@@ -1,0 +1,19 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "deepstream.io": "^0.8.1",
+    "deepstream.io-client-js": "^0.4.3",
+    "express": "^4.13.4",
+    "jquery": "^2.2.2"
+  }
+}
