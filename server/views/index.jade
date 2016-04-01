@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .jumbotron
+    h1= title
+    p A real time web app using Deepstream.io and Trello
+    //- To authorize Trello
+    a(id='authTrello' href='#' class='btn btn-primary btn-lg') Authorize Trello
+  
+  //- To check Deepstream is working
+  input(type="text")
+  
